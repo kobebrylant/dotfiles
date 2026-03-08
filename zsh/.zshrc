@@ -30,6 +30,7 @@ alias l='ls'
 alias show_pic="kitty +kitten icat"
 alias ls='eza -x --group-directories-first'
 alias ll='eza --long --group-directories-first'
+alias la='eza --long --all --group-directories-first'
 alias lt='eza --icons --tree --level=2'
 alias lg='lazygit'
 
