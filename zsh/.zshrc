@@ -55,3 +55,6 @@ if [ -s "$NVM_DIR/nvm.sh" ]; then
 fi
 
 [ -f ~/.zshrc.local ] && source ~/.zshrc.local
+
+# To customize prompt, run `p10k configure` or edit ~/dotfiles/zsh/.p10k.zsh.
+[[ ! -f ~/dotfiles/zsh/.p10k.zsh ]] || source ~/dotfiles/zsh/.p10k.zsh
