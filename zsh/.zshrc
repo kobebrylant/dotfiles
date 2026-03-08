@@ -28,13 +28,18 @@ alias python='python3'
 alias qa='exit'
 alias l='ls'
 alias show_pic="kitty +kitten icat"
-
+alias ls='eza -x --group-directories-first'
+alias ll='eza --long --group-directories-first'
+alias lt='eza --icons --tree --level=2'
 set -o vi
 export KEYTIMEOUT=1
 
 tg_tp() {
   sh ~/.config/kitty/toggle-transparency.sh
 }
+
+DISABLE_AUTO_TITLE="true"
+precmd() { print -Pn "\e]0;%~\a" }
 
 export NVM_DIR="$HOME/.nvm"
 if [ -s "$NVM_DIR/nvm.sh" ]; then
