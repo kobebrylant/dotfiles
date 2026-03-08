@@ -12,6 +12,8 @@ plugins=(
   zsh-autosuggestions
   zsh-interactive-cd
   fzf
+  web-search
+  extract
 )
 
 source $ZSH/oh-my-zsh.sh
