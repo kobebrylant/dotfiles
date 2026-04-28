@@ -6,11 +6,11 @@ return {
       ignored = false, -- set to true if you also want .gitignore'd files (like node_modules)
       sources = {
         explorer = {
-          hidden = true,
+          hidden = false,
           ignored = false,
           layout = {
             preset = "sidebar",
-            layout = { width = 35 },
+            layout = { width = 32 },
           },
         },
       },
